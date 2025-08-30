@@ -1,0 +1,231 @@
+/* CSS: Geral*/
+
+/* Corpo da Página */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background: linear-gradient(120deg, #e0f7fa, #f1f8e9);
+    color: #333;
+    padding-top: 60px;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #004d40;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    z-index: 1000;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding: 15px 0;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 15px;
+    border-radius: 8px;
+    transition: background 0.3s, transform 0.2s;
+}
+
+nav ul li a:hover {
+    background: #00796b;
+    transform: scale(1.1);
+}
+
+
+/* CSS: Sobre Mim */
+main {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+}
+
+#sobreMim h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #004d40;
+    text-align: center;
+}
+
+#sobreMim p {
+    margin-bottom: 15px;
+    font-size: 1.1rem;
+    text-align: justify;
+}
+
+
+/* CSS: Rodapé */
+footer {
+    margin-top: 40px;
+    text-align: center;
+    background: #004d40;
+    color: #fff;
+    padding: 15px 0;
+}
+
+
+/* CSS: Formação */
+
+#formacao h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #004d40;
+}
+
+#formacao p {
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 1.1rem;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+table th, table td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+table th {
+    background: #00796b;
+    color: white;
+    font-weight: bold;
+}
+
+table tr:hover {
+    background: #e0f2f1;
+    transition: 0.3s;
+}
+
+
+/* CSS: Idiomas */
+.idiomas {
+    max-width: 400px;
+    margin: auto;
+    list-style: none;
+    padding: 0;
+}
+
+.idiomas li {
+    background: #00796b;
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    text-align: center;
+    transition: transform 0.2s;
+}
+
+.idiomas li:hover {
+    transform: scale(1.05);
+    background: #004d40;
+}
+
+
+
+/* CSS: Portfólio */
+#portfolio {
+    max-width: 400px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+#portfolio .card1 img {
+    width: 120px;
+    margin-bottom: 15px;
+    background: white;
+    padding: 10px;
+    border: 2px solid #00796b;
+    transition: transform 0.3s;
+}
+
+#portfolio .card1 img:hover {
+    transform: scale(1.1);
+}
+
+
+/* CSS: Contato */
+
+/* CSS: Página Contato */
+#contato {
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+}
+
+#contato h1 {
+    margin-bottom: 15px;
+    color: #004d40;
+}
+
+#contato p {
+    margin-bottom: 25px;
+    font-size: 1.1rem;
+}
+
+/* Formulário */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+form label {
+    font-weight: bold;
+    text-align: left;
+    color: #004d40;
+}
+
+form input, form textarea {
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: border-color 0.3s;
+}
+
+form input:focus, form textarea:focus {
+    border-color: #00796b;
+    outline: none;
+}
+
+form button {
+    background: #00796b;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+form button:hover {
+    background: #004d40;
+}
