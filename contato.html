@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/style.css">
+    <script src="/JS/script.js"></script>
+    <title>Contato</title>
+</head>
+<body>
+    <!-- ======= Links para outras páginas ======= -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Sobre Mim</a></li>
+                <li><a href="formacao.html">Formação Educacional</a></li>
+                <li><a href="portfolio.html">Portfólio</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- ======= Seção de Contato ======= -->
+    <main>
+        <section id="contato">
+            <h1>Entre em Contato</h1>
+            <p>Preencha o formulário abaixo para me enviar uma mensagem:</p>
+
+            <!-- ======= Criação do formulário para contato ======= -->
+            <form id="formularioContato" action="#">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" placeholder="Digite seu nome:">
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" placeholder="Insira seu E-mail:">
+
+                <label for="mensagem">Deixe sua mensagem:</label>
+                <textarea name="mensagem" id="mensagem" rows="5" placeholder="Digite Sua Mensagem:"></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- ======= Rodapé ======= -->
+    <footer>
+        <p><span id="ano"></span> - Portfólio Lorenzo Callegari</p>
+    </footer>
+</body>
+</html>
